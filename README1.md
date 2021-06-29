@@ -50,7 +50,7 @@ To test your installation
 $ roscore
 ```
 
-# Preparing ROS
+# Preparing ROS and adding robot arm
 
 ### 1.1  Setup the workspace where ROS projects are built and stored
  ```
@@ -73,3 +73,6 @@ $ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
 $ catkin_make
 $ roslaunch robot_arm_pkg check_motors.launch
 ```
+# Arduino 
+
+# Simulation of robot arm
