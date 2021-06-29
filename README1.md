@@ -54,7 +54,22 @@ $ roscore
 
 ### 1.1  Setup the workspace where ROS projects are built and stored
  ```
-$ mkdir -p ~/robot-arm/src
-$ cd ~/robot-arm/
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
 $ catkin_make
+```
+
+### 1.2 Adding ardino robot arm package
+```
+$ cd ~/catkin_ws/src
+$ sudo apt install git
+$ git clone https://github.com/smart-methods/arduino_robot_arm 
+$ cd ~/catkin_ws
+$ rosdep install --from-paths src --ignore-src -r -y
+$ sudo apt-get install ros-melodic-moveit
+$ sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
+$ sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
+$ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
+$ catkin_make
+$ roslaunch robot_arm_pkg check_motors.launch
 ```
