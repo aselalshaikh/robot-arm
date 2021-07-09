@@ -40,5 +40,6 @@ $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 $ roslaunch moveit_pkg demo.launch
 ```
 
+![rvis](https://user-images.githubusercontent.com/85528449/125081466-b507bc80-e0ce-11eb-8c29-be8236d05b52.png)
 
 
