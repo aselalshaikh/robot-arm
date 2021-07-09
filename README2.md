@@ -33,3 +33,17 @@ $ roslaunch robot_arm_pkg check_motors.launch
 ```
 To see the robot arm click on graphicak tool
 ### Simulate the motors
+open a new shell web to write these commands to simulate the arm on Gazebo and Rvis
+#### Gazebo
+```
+$ roslaunch robot_arm_pkg check_motors.launch
+$ roslaunch robot_arm_pkg check_motors_gazebo.launch
+$ rosrun robot_arm_pkg joint_states_to_gazebo.py
+```
+#### Rvis
+```
+$ roslaunch moveit_pkg demo.launch
+```
+
+
+
