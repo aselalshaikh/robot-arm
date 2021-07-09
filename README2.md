@@ -4,7 +4,7 @@ This project will use ROS to create robot arm
 Here is the second method to use ROS if ubuntu did not work with using a website https://www.theconstructsim.com
 # Steps
 ## 1- Creating acount
-## 2- click on ( My projects → Create a new project → )
+## 2- click on ( My projects → Create a new project )
 ## 3- open a Shell web 
 ( first icon in the left of the screen )
 ### To installing the package arduino_robot_arm write these commands:
