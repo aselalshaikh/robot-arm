@@ -32,6 +32,8 @@ $ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
 $ roslaunch robot_arm_pkg check_motors.launch
 ```
 To see the robot arm click on graphicak tool
+![t1 robot arm](https://user-images.githubusercontent.com/85528449/125073508-be8c2700-e0c4-11eb-94fa-22dc5374d331.png)
+
 ### Simulate the motors
 open a new shell web to write these commands to simulate the arm on Gazebo and Rvis
 #### Gazebo
