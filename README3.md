@@ -1,6 +1,6 @@
 task 2
 # Turtlebot3
-To create map using Turtlebot3 with SLAM approach 
+To create map using Turtlebot3 with SLAM approach using commands to install TurtleBot3 in this website https://www.theconstructsim.com/
 - install ubuntu and ROS on PC with these commands
 ```
 $ sudo apt update
@@ -19,7 +19,7 @@ $ ros-melodic-compressed-image-transport ros-melodic-rqt*
 $ ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 ```
 ## Install TurtleBot3 Packages
-Using this commands to install TurtleBot3 in this website https://www.theconstructsim.com/
+
 ```
 $ sudo apt-get install ros-melodic-dynamixel-sdk
 $ sudo apt-get install ros-melodic-turtlebot3-msgs
@@ -52,9 +52,9 @@ $ catkin_make
 ```
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
-![R1](https://user-images.githubusercontent.com/85528449/125207021-ce596600-e292-11eb-9791-2adac23f15ec.png)
-
 ```
+![R1](https://user-images.githubusercontent.com/85528449/125207183-8e46b300-e293-11eb-8581-8e488ee032a1.png)
+
 ### SLAM Simulation
 ```
 $ export TURTLEBOT3_MODEL=burger
