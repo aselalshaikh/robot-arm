@@ -71,6 +71,7 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ![R2](https://user-images.githubusercontent.com/85528449/125207067-ecbf6180-e292-11eb-8922-7d17d04262ea.png)
+To complete all the map move the robot by using (a,w,d,x,s)
 ![R3](https://user-images.githubusercontent.com/85528449/125207079-f2b54280-e292-11eb-970d-c7d6e57841e9.png)
 
 ## Save Map
